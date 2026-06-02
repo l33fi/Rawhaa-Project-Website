@@ -1,0 +1,21 @@
+/* تعيين خط جوجول الإجباري للموقع */
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* التدرج اللوني الرهيب المخصص لشعار وبطاقات روحاء */
+.gradient-bg {
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+}
+
+/* تأثير حركي مخصص لظهور نافذة النجاح بالتكبير التفاعلي */
+@keyframes scaleUp {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
